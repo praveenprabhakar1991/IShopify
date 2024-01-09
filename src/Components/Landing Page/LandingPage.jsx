@@ -2,15 +2,15 @@ import img1 from './Assets/img1.png'
 // import { Link } from 'react-router-dom'
 
 const LandingPage = () => {
-   return <div className="container">      
+   return <div className="container mt-3">      
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
          <div className="carousel-inner">
             <div className="carousel-item active">
-               <img src={img1} className="d-block w-100" />
+               <img src={img1} className="d-block w-100 img-fluid" alt='LandingPage1' />
             </div>
-            {/* <div className="carousel-caption d-inline d-md-block">
+            {/* <div className="carousel-caption ">
                <h3>NEW ARRIVALS ONLY</h3>
-               <Link to="/"><button className='border-0 bg-transparent mt-3'><span className=" fs-6 fw-normal badge rounded-pill bg-danger py-3 px-4 text-white ">Latest Collections</span></button></Link>
+               <Link to="/"><button type='submit' className='btn btn-dark border rounded-pill py-2 px-5 m-3'>Submit</button></Link>
             </div> */}
          </div>
       </div>

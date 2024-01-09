@@ -5,9 +5,9 @@ const LoginSignup = () => {
    return <div className='container mt-3'>
       <div className="row justify-content-center">
          <div className="col-md-4">
-            <h2>Sign Up</h2>
+            <h3>Sign Up</h3>
             <i className='text-muted'>Fill in this form to create an account.</i>
-            <div className='flex-column mt-3 align-items-center'>
+            <div className='mt-3'>
                <input type="text" className='form-control border rounded-pill mt-3' placeholder='Enter Name' />
                <input type="email" className='form-control border rounded-pill mt-3' placeholder='Enter Email' />
                <input type="password" className='form-control border rounded-pill mt-3' placeholder='Enter Password' />
@@ -17,7 +17,7 @@ const LoginSignup = () => {
             <div className="form-check">
                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                <label className="form-check-label">
-                  By Continuing, I agree to the trems of use and privacy policy
+                  <p className='text-capitalize'>By Continuing, I agree to the trems of use and privacy policy</p>
                </label>
             </div>
             <Link to="/"><button type='submit' className='btn btn-danger rounded-pill py-2 px-5 mt-3'>Submit</button></Link>

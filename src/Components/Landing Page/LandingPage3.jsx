@@ -2,11 +2,11 @@ import img3 from './Assets/img3.jpg'
 // import { Link } from 'react-router-dom'
 
 const LandingPage3 = () => {
-   return <div className=" container mt-5 pt-5">
+   return <div className=" container mt-5">
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
          <div className="carousel-inner">
             <div className="carousel-item active">
-               <img src={img3} className="d-block w-100" />
+               <img src={img3} className="d-block w-100" alt='LandingPage3'/>
             </div>
             {/* <div className="carousel-caption d-inline d-md-block">
                <h3 className='text-warning'>EXCLUSIVE OFFER FOR YOU</h3>
